@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reki"
+version = "0.0.1"
+description = "A short description of your package"
+authors = [{ name = "Rekimart", email = "support@rekimart.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["data", "machine", "learning", "processing", "automation", "bittensor"]
+requires-python = ">=3.10.0"
+dependencies = [
+  "numpy",
+  "pandas"
+]
+
+[tool.setuptools]
+packages = ["reki"]
+
+[project.urls]
+Repository = "https://github.com/rekimart/reki"
