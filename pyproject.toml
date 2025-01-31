@@ -15,9 +15,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
+license = {text = "Apache-2.0"}
 
 [tool.setuptools]
 packages = ["reki"]
 
 [project.urls]
-Homepage = "https://github.com/rekimart/reki"
+Repository = "https://github.com/rekimart/reki"
