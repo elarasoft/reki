@@ -5,19 +5,19 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "reki"
 version = "0.0.1"
-description = "A short description of your package"
-authors = [{ name = "Rekimart", email = "support@rekimart.com" }]
+authors = [
+    { name="Rekimart", email="support@rekimart.com" },
+]
+description = "A small example package"
 readme = "README.md"
-license = { file = "LICENSE" }
-keywords = ["data", "machine", "learning", "processing", "automation", "bittensor"]
-requires-python = ">=3.10.0"
-dependencies = [
-  "numpy",
-  "pandas"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
 ]
 
 [tool.setuptools]
 packages = ["reki"]
 
 [project.urls]
-Repository = "https://github.com/rekimart/reki"
+Homepage = "https://github.com/rekimart/reki"

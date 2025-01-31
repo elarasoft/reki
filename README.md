@@ -1,3 +1,9 @@
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
 ## License
 
 This repository is licensed under the MIT License.
